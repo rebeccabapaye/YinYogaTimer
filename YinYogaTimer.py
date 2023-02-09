@@ -33,11 +33,12 @@ while i < len(sequence_list):
 print("Generating sequence ...")
 print("Your sequence times are:", sequence)
 
-# Remove last item from list and assign to final posture, which is a constant
+# Remove last item from list and assign to final posture
 shavasana = sequence.pop(-1)
 
-# Pause for input before starting sequence
+# Pause before starting sequence
 input("Ready to begin? Press enter. ")
+print("Running sequence ...")
 
 # Three chimes for beginning of practice
 bell(3)
